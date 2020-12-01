@@ -139,7 +139,7 @@ SHRP_MAINTAINER := SP-XD
 # Device codename *
 SHRP_DEVICE_CODE := X01AD 
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
-SHRP_REC_TYPE := Treble
+SHRP_REC_TYPE := SAR
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
 SHRP_DEVICE_TYPE := A_Only
 
