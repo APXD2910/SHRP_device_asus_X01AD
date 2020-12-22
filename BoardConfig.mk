@@ -151,10 +151,11 @@ SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
-SHRP_FLASH_MAX_BRIGHTNESS := 100
 SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/leds/led:torch_1/brightness
-SHRP_FONP_2 := /sys/class/leds/led:switch/brightness
+SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
+SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
+SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
+SHRP_FLASH_MAX_BRIGHTNESS := 200
 SHRP_EDL_MODE := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 
